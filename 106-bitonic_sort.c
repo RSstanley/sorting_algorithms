@@ -3,11 +3,8 @@
 
 /**
  * bitonic_compare - sort the values in a sub-array with respect to
- * the Bitonic sort algorithm
  * @up: direction of sorting
  * @array: sub-array to sort
- * @size: size of the sub-array
- *
  * Return: void
  */
 void bitonic_compare(char up, int *array, size_t size)
