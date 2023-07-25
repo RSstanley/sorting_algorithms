@@ -4,8 +4,6 @@
 * stupify - recurrssive heapfiy function
 * @array: Array to sort
 * @heap: size of heap data
-* @i: index
-* @size: size of array
 */
 
 void stupify(int *array, int heap, int i, int size)
