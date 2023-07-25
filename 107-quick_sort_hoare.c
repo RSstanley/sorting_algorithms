@@ -4,8 +4,11 @@
 
 /**
  * partition - finds the partition for the quicksort using the Hoare scheme
+ * @array: array to sort
  * @lo: lowest index of the partition to sort
  * @hi: highest index of the partition to sort
+ * @size: size of the array
+ *
  * Return: index of the partition
  */
 size_t partition(int *array, ssize_t lo, ssize_t hi, size_t size)
