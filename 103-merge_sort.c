@@ -8,9 +8,6 @@
  * @middle: end index (exclusive) for the left sub array and
  * starting index (inclusive) for the right sub array
  * @end: end index (exclusive) for the right sub array
- * @dest: destination for data
- * @source: source of data
- *
  * Return: void
  */
 void TDMerge(size_t start, size_t middle, size_t end, int *dest, int *source)
